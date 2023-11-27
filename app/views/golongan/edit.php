@@ -1,8 +1,8 @@
-<h1>Edit Data User</h1>
+<h1>Edit Data Golongan</h1>
 <hr><br>
 
 <div class="card">
-    <h4 class="card-header">Edit Data User</h4>
+    <h4 class="card-header">Edit Data Golongan</h4>
     <div class="card-body">
         <form action="<?= URL; ?>/golongan/update" method="POST">
             <input type="hidden" name="gol_id" value="<?= $data['row']['gol_id']; ?>">
